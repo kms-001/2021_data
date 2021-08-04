@@ -2,6 +2,7 @@
 @charset "utf-8";
 * {font-family: 'Roboto', sans-serif;}
 
+
 #header{position: relative;}
 .navWrap {width: 100%;
           background: rgb(3,3,3,.4);
@@ -10,10 +11,10 @@
       margin: 0 auto;}
 
 /* logo */
-.logo {float: left; 
+.logo {float: left;
        margin-right: 20px;
        margin-top: 20px;}
-.logo img {width: 120px; 
+.logo img {width: 120px;
            height: 60px;}
 
 /* menu */
@@ -49,7 +50,7 @@
               padding: 0 50px 0 20px;
               color:#fff}
 .search input::placeholder {color:#fff}
-.search img {width: 20px; 
+.search img {width: 20px;
              height: 20px;
              position: absolute;
              top: 35px; right: 255px;}
@@ -73,17 +74,17 @@
                         top:50%; left: 100px;
                         color:#fff;}
 .sliderWrap .sliderTxt h1,
-.sliderWrap .sliderTxt p {margin-bottom: 10px}                     
+.sliderWrap .sliderTxt p {margin-bottom: 10px}
 
 .sliderBtn {position: relative;}
-.sliderWrap .btn1st, 
+.sliderWrap .btn1st,
 .sliderWrap .btn2st {
-                    width: 120px; 
+                    width: 120px;
                     line-height: 40px;
                     border-radius: 20px;
                     float: left;}
-.sliderWrap .btn1st {margin-right: 20px; 
-                     background: #e50914; 
+.sliderWrap .btn1st {margin-right: 20px;
+                     background: #e50914;
                      border:1px solid #e50914;}
 .sliderWrap .btn2st {border:1px solid #fff;}
 .sliderWrap .btn1st img {width: 15px;
@@ -102,7 +103,7 @@
 #boxartWrap {width: 100%;}
 /* .boxart {width: 1240px;
          margin: 0 auto;} */
-.boxart h3 {width: 1240px; 
+.boxart h3 {width: 1240px;
             margin: 20px auto;
             color:#e6e6e6;}
 .item {height: 200px;
@@ -121,13 +122,13 @@
 .movie .movieList {display: flex;
                   flex-wrap: wrap;
                   position: relative;}
-.movie ul>li {height: 350px; 
+.movie ul>li {height: 350px;
              display: flex;
              justify-content: center;
              align-items: center;}
 .movie ul>li:nth-child(1) {background: rgb(24, 24, 24);
                            width: 40%}
-.movie ul>li:nth-child(2) {background-image: url(../images/movie01.png); 
+.movie ul>li:nth-child(2) {background-image: url(../images/movie01.png);
                            width: 60%;}
 .movie ul>li:nth-child(3) {background-image: url(../images/movie02.png);}
 .movie ul>li:nth-child(4) {background-image: url(../images/movie03.png);}
@@ -137,7 +138,7 @@
 .movie ul>li:nth-child(4),
 .movie ul>li:nth-child(5) {width: calc(100%/3)}
 
-.movieList .movieTxt {color:#fff; 
+.movieList .movieTxt {color:#fff;
                       position: absolute;
                       top:13%; left: 6.5%;}
 .movieList .movieTxt .movieIcon img {width: 45px;
@@ -150,8 +151,8 @@
 .gal_item {width: calc((1240px - (20px * 4)) / 5);
            margin-right: 20px;}
 .nowCont {display: flex;}
-.galTitle, 
-.galMore {display: inline-block; 
+.galTitle,
+.galMore {display: inline-block;
           color:#e6e6e6}
 
 .galTxt {width: 220px;
