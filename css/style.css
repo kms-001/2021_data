@@ -82,7 +82,8 @@
                     width: 120px;
                     line-height: 40px;
                     border-radius: 20px;
-                    float: left;}
+                    float: left;
+                    cursor: po}
 .sliderWrap .btn1st {margin-right: 20px;
                      background: #e50914;
                      border:1px solid #e50914;}
@@ -149,18 +150,38 @@
 .galWrap {width: 1240px;
           margin: 0 auto;}
 .gal_item {width: calc((1240px - (20px * 4)) / 5);
-           margin-right: 20px;}
-.nowCont {display: flex;}
+           margin-right: 20px;
+           cursor: pointer;}
+.nowCont, .againCont {display: flex;}
 .galTitle,
 .galMore {display: inline-block;
-          color:#e6e6e6}
-
+          color:#e6e6e6;}
+.galMore {float:right;
+          cursor: pointer;}
 .galTxt {width: 220px;
          text-align: center;
          color: #c8c8c8;
          line-height: 30px;
          margin-top: -4px;}
 
+/*banner*/
+.bannerWrap {position: relative;}
+.banner {width: 1240px;
+        text-align: center;
+        position: absolute;
+        top: 65px; left:100px}
+.banner img {width: 150px;}
+.bannerTxt {color:#fff; text-align: center}
+.bannerTxt .btn3st {width: 200px;
+                    background: #e50914;
+                    border-radius: 20px;
+                    text-align: center;
+                    padding: 10px 0;
+                    display: block;
+                    margin: 0 auto;
+                    cursor: pointer;}
+
 
 .mb10 {margin-bottom: 10px;}
 .mb20 {margin-bottom: 20px;}
+.mb30 {margin-bottom: 30px;}
