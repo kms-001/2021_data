@@ -111,7 +111,7 @@
 .boxart h2 {width: 1240px;
             margin: 20px auto;
             color:#e6e6e6;}
-.item {height: 200px;
+.boxart .item {height: 200px;
       line-height: 200;
       border-right: 20px;
       margin-right: 10px;
@@ -190,10 +190,15 @@
                     margin: 0 auto;
                     cursor: pointer;}
 
-
-
-
-
+/* csoon */
+.csoon h2 {width: 1240px;
+            margin: 20px auto;
+            color:#e6e6e6;}
+#csoonWrap .owl-carousel .item {width: 340px;
+                            height: 470px;
+                            background: #4DC7A0;
+                            border-right: 20px;
+                            margin-right: 10px;}
 
 .mb10 {margin-bottom: 10px;}
 .mb20 {margin-bottom: 20px;}
