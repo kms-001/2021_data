@@ -7,6 +7,10 @@
 .navWrap {width: 100%;
           background: rgb(3,3,3,.4);
           position: fixed; z-index: 100;}
+.navWrap.activated{
+  background-color: black;
+}
+
 .nav {width: 1240px;
       margin: 0 auto;}
 
@@ -104,7 +108,7 @@
 #boxartWrap {width: 100%;}
 /* .boxart {width: 1240px;
          margin: 0 auto;} */
-.boxart h3 {width: 1240px;
+.boxart h2 {width: 1240px;
             margin: 20px auto;
             color:#e6e6e6;}
 .item {height: 200px;
@@ -152,13 +156,18 @@
 .gal_item {width: calc((1240px - (20px * 4)) / 5);
            margin-right: 20px;
            cursor: pointer;}
-.nowCont, .againCont {display: flex;}
+.gal_item:hover {transform: scale(1.1);
+                 transition: .5;}
+.nowCont,.againCont,
+.animtnCont,.comedyCont {display: flex;}
+
 .galTitle,
 .galMore {display: inline-block;
           color:#e6e6e6;}
 .galMore {float:right;
           cursor: pointer;}
 .galTxt {width: 220px;
+         font-size: 16px;
          text-align: center;
          color: #c8c8c8;
          line-height: 30px;
@@ -180,6 +189,10 @@
                     display: block;
                     margin: 0 auto;
                     cursor: pointer;}
+
+
+
+
 
 
 .mb10 {margin-bottom: 10px;}
