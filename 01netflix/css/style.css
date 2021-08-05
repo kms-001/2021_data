@@ -134,7 +134,7 @@
 .movie ul>li:nth-child(1) {background: rgb(24, 24, 24);
                            width: 40%}
 .movie ul>li:nth-child(2) {background-image: url(../images/movie01.png);
-                           width: 60%;}
+                           width: 60%; background-size: cover;}
 .movie ul>li:nth-child(3) {background-image: url(../images/movie02.png);}
 .movie ul>li:nth-child(4) {background-image: url(../images/movie03.png);}
 .movie ul>li:nth-child(5) {background-image: url(../images/movie04.png);}
@@ -145,7 +145,7 @@
 
 .movieList .movieTxt {color:#fff;
                       position: absolute;
-                      top:13%; left: 6.5%;}
+                      top:11%; left: 6.5%;}
 .movieList .movieTxt .movieIcon img {width: 45px;
                                     margin-right: 10px;}
 
