@@ -200,6 +200,21 @@
                             border-right: 20px;
                             margin-right: 10px;}
 
+
+/*footer*/
+.footerWrap {width: 1240px;
+             margin: 0 auto;}
+.fab {color:#e6e6e6;
+      margin-right: 10px;
+      cursor: pointer;}
+.footerWrap li {float: left;
+                width: calc(1240px/5)}
+.footerWrap li a {display: block;
+                  line-height: 40px;
+                  color:#e6e6e6;}
+.copyright {color:#e6e6e6;}
+.copyright p {line-height: 25px;}
+
 .mb10 {margin-bottom: 10px;}
 .mb20 {margin-bottom: 20px;}
 .mb30 {margin-bottom: 30px;}
