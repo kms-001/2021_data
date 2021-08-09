@@ -136,8 +136,11 @@
 .movie ul>li:nth-child(2) {background-image: url(../images/movie01.png);
                            width: 60%; background-size: cover;}
 .movie ul>li:nth-child(3) {background-image: url(../images/movie02.png);}
+.movie ul>li:nth-child(3):hover {background: rgb(24, 24, 24);}
 .movie ul>li:nth-child(4) {background-image: url(../images/movie03.png);}
+.movie ul>li:nth-child(4):hover {background: rgb(24, 24, 24);}
 .movie ul>li:nth-child(5) {background-image: url(../images/movie04.png);}
+.movie ul>li:nth-child(5):hover {background: rgb(24, 24, 24);}
 
 .movie ul>li:nth-child(3),
 .movie ul>li:nth-child(4),
@@ -148,7 +151,13 @@
                       top:11%; left: 6.5%;}
 .movieList .movieTxt .movieIcon img {width: 45px;
                                     margin-right: 10px;}
-
+.movieList .exTxt {opacity: 0}
+.movie ul>li:nth-child(3):hover .exTxt,
+.movie ul>li:nth-child(4):hover .exTxt,
+.movie ul>li:nth-child(5):hover .exTxt{opacity: 1;
+                                       color:#fff;}
+.movieList .exTxt .movieIcon img {width: 35px;
+                                  margin-right: 10px;}
 
 /* galWrap */
 .galWrap {width: 1240px;
